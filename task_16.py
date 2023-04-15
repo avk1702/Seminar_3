@@ -11,9 +11,9 @@ for i in range(n):
     list_1.append(m)
 print(*list_1)
 x = int(input("Введите число X: "))
-count = 0
-for i in range(n):
-     if list_1[i] == x:
-      count+=1
-print("Чиcло ",(x), "встречается в массиве ",(count)," раз(а)")
-#print(list_1.count(x))
+# count = 0
+# for i in range(n):
+#      if list_1[i] == x:
+#       count+=1
+# print("Чиcло ",(x), "встречается в массиве ",(count)," раз(а)")
+print("Чиcло ",(x), "встречается в массиве ", list_1.count(x), " раз(а)")
